@@ -4,11 +4,14 @@
   "description": "Intro to Knex",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon",
+    "knex": "knex"
   },
   "author": "Sam",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
     "knex": "^0.13.0",
     "pg": "^7.3.0"
   }
